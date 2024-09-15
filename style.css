@@ -269,8 +269,8 @@ section .title::after{
 .about img{
     
     align-items: center;
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 250px;
 }
 .services .title::before,
 .teams .title::before{
@@ -539,7 +539,7 @@ footer i{
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 690px)  {
     .max-width{
         padding: 0 23px;
     }
@@ -588,5 +588,11 @@ footer i{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+}
+
+@media (max-width: 380px) {
+    max-width{
+        padding: 0 25px;
     }
 }
